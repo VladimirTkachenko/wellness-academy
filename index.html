@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WELLNESS ACADEMY</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/styles.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="./js/main.js" type="module" defer></script>
+  </head>
+
+  <body class="page__body">
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__content">
+          <a href="#" class="header__logo logo">
+            <img class="logo-img" src="./assets/logo.svg" alt="Logo" />
+            <h1 class="logo-text">
+              WELLNESS
+              <br />
+              ACADEMY
+            </h1>
+          </a>
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item nav__item--active">
+                <a class="nav__link" href="index.html">
+                  Home
+                  <i class="fas fa-chevron-down" id="dropdown-icon"></i>
+                </a>
+                <ul class="submenu">
+                  <li><a class="nav__link" href="#featured-courses">Featured Courses</a></li>
+                  <li><a class="nav__link" href="#creators">Course Creators</a></li>
+                  <li><a class="nav__link" href="#guidePromo">Free Guide</a></li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="./pages/gallery.html">Gallery</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="./pages/contacts.html"> Contacts </a>
+              </li>
+            </ul>
+            <div class="header__mobile-menu">
+              <i class="fas fa-bars"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__content">
+          <h2 class="hero__title">Elevate Your Wellness Practice</h2>
+          <p class="hero__subtitle">Expert-led online courses for physical and mental health</p>
+          <a href="#guidePromo" class="btn hero__button">Sign me up</a>
+        </div>
+      </section>
+
+      <section id="featured-courses" class="section featured">
+        <div class="wrapper">
+          <h2 class="featured__title section__title">
+            Transform Your Wellness Journey
+            <svg xmlns="http://www.w3.org/2000/svg" width="573" height="68" viewBox="0 0 573 68">
+              <path
+                d="M 0,67.32 c 71.625,-1.87 143.25,-5.78 286.5,-7.48 c 143.25,-1.7 217.74,0 286.5,0.68 c 13.752,0.136 -10.887,1.938 -11.46,2.04"
+                fill="none"
+                stroke="#E3CF5B"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+            </svg>
+          </h2>
+          <p class="featured__subtitle section__subtitle">
+            Tired of generic health advice?
+            <br />
+            Experience expert-led, interactive programs designed to fit your lifestyle.
+          </p>
+          <div class="featured__container" id="featuredCoursesContainer">
+            <!-- Courses will be loaded here by JavaScript -->
+          </div>
+
+          <div class="featured__more">
+            <a href="./pages/gallery.html" class="featured__link">Explore All Programs</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="creators" id="creators">
+        <div class="wrapper">
+          <h2 class="section__title creators__title">Course Creators</h2>
+
+          <div class="creators__slider">
+            <button class="slider-button slider-button--prev">‹</button>
+            <div class="creators__container">
+              <!-- Creator cards will be added here -->
+            </div>
+            <button class="slider-button slider-button--next">›</button>
+          </div>
+
+          <div class="creators__pagination"></div>
+        </div>
+      </section>
+
+      <section id="guidePromo" class="section guide">
+        <div class="wrapper">
+          <div class="guide__content">
+            <h2 class="guide__title section__title">
+              Unlock Your Wellness Journey: Free Expert Guide
+            </h2>
+            <p class="guide__subtitle section__subtitle">
+              Subscribe today to download your complimentary WELLNESS ACADEMY roadmap
+              <br />
+              and save 20% on your initial enrollment!
+            </p>
+            <small class="guide__note"
+              >*Offer valid for individual online courses only (excludes bundles and in-person
+              programs)</small
+            >
+            <div class="guide__container">
+              <div class="guide__image">
+                <img src="./assets/guide.jpeg" alt="Curriculum Guide" />
+              </div>
+              <form class="guide__form form" id="guideForm">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="first-name" class="form-label">First Name (required)</label>
+                    <input
+                      class="form-field"
+                      type="text"
+                      id="first-name"
+                      name="first_name"
+                      required
+                      placeholder="E.g. Anna"
+                      aria-label="Enter your first name"
+                    />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="last-name" class="form-label">Last Name (required)</label>
+                    <input
+                      class="form-field"
+                      type="text"
+                      id="last-name"
+                      name="last_name"
+                      required
+                      placeholder="E.g. Petrova"
+                      aria-label="Enter your last name"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Email (required)</label>
+                  <input
+                    class="form-field"
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="your.email@example.com"
+                    aria-label="Enter your email address"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="profession" class="form-label">Profession (Optional)</label>
+                  <input
+                    class="form-field"
+                    type="text"
+                    id="profession"
+                    name="profession"
+                    placeholder="E.g. Yoga Instructor, Nutritionist"
+                    aria-label="Enter your profession"
+                  />
+                </div>
+
+                <button type="submit" class="guide__form-button btn">Get My Free Guide</button>
+              </form>
+            </div>
+            <div class="guide__social">
+              <h2 class="section__title guide__social-title">
+                See more on social!
+                <svg
+                  class="guide__social-decoration"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="573"
+                  height="68"
+                  viewBox="0 0 573 68"
+                >
+                  <path
+                    d="M 0,67.32 c 71.625,-1.87 143.25,-5.78 286.5,-7.48 c 143.25,-1.7 217.74,0 286.5,0.68 c 13.752,0.136 -10.887,1.938 -11.46,2.04"
+                    fill="none"
+                    stroke="#E3CF5B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </h2>
+
+              <p class="guide__social-subtitle section__subtitle">
+                Short videos? TikTok. Professional tips? LinkedIn. Fun reels? Instagram.
+                <br />
+                We're everywhere you are!
+              </p>
+              <div class="guide__social social-icons">
+                <a
+                  href="https://www.facebook.com/"
+                  class="guide__social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  class="guide__social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/"
+                  class="guide__social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://www.youtube.com/"
+                  class="guide__social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <p class="footer__copyright">
+          Copyright © <span id="current-year"></span> WELLNESS ACADEMY
+        </p>
+
+        <div class="footer__contact">
+          <a href="mailto:support@wellnessacademy.com" class="footer__email"
+            >support@wellnessacademy.com</a
+          >
+        </div>
+
+        <div class="footer__links">
+          <a href="/terms" class="footer__link">User Agreement</a> |
+          <a href="/privacy" class="footer__link">Data Protection</a> |
+          <a href="/cookies" class="footer__link">Cookie Settings</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

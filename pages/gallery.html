@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - WELLNESS ACADEMY</title>
+  <base href="/" />
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../styles/styles.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="../js/main.js" type="module" defer></script>
+</head>
+
+<body class="page__body">
+  <header class="header">
+    <div class="wrapper">
+      <div class="header__content">
+        <a href="/index.html" class="header__logo logo">
+          <img class="logo-img" src="../assets/logo.svg" alt="WELLNESS ACADEMY Logo" />
+          <h1 class="logo-text">
+            WELLNESS
+            <br />
+            ACADEMY
+          </h1>
+        </a>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="/index.html">
+                Home
+                <i class="fas fa-chevron-down" id="dropdown-icon"></i>
+              </a>
+              <ul class="submenu">
+                <li>
+                  <a class="nav__link" href="/index.html#featured-courses">Featured Courses</a>
+                </li>
+                <li><a class="nav__link" href="/index.html#creators">Course Creators</a></li>
+                <li><a class="nav__link" href="/index.html#guidePromo">Free Guide</a></li>
+              </ul>
+            </li>
+            <li class="nav__item nav__item--active">
+              <a class="nav__link" href="#">Gallery</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+          <div class="header__mobile-menu">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content gallery-page">
+    <section class="section gallery-controls">
+      <div class="wrapper">
+        <h2 class="section__title gallery-controls__title">
+          Course Catalog
+          <svg xmlns="http://www.w3.org/2000/svg" width="573" height="68" viewBox="0 0 573 68">
+            <path
+              d="M 0,67.32 c 71.625,-1.87 143.25,-5.78 286.5,-7.48 c 143.25,-1.7 217.74,0 286.5,0.68 c 13.752,0.136 -10.887,1.938 -11.46,2.04"
+              fill="none" stroke="#E3CF5B" stroke-width="3" stroke-linecap="round" />
+          </svg>
+        </h2>
+        <p class="section__subtitle gallery-controls__subtitle">
+          Master Evidence-Based Techniques – Start Your Training Now!
+        </p>
+        <div class="gallery-controls__filters">
+          <!-- Sorting -->
+          <div class="gallery-controls__filter" id="sort-filter">
+            <div class="gallery-controls__dropdown">
+              <button type="button" class="gallery-controls__dropdown-toggle" aria-expanded="false"
+                aria-controls="sort-dropdown">
+                Sort by: Default <span class="gallery-controls__caret"></span>
+              </button>
+              <ul class="gallery-controls__dropdown-menu" role="menu" id="sort-dropdown">
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-sort="default">Default</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-sort="title-asc">Title (A - Z)</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-sort="title-desc">Title (Z - A)</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-sort="price-asc">Price (Low to High)</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-sort="price-desc">Price (High to Low)</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-sort="rating-desc">Rating (Higher to
+                    Lower)</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Topic Filter -->
+          <div class="gallery-controls__filter" id="topic-filter">
+            <div class="gallery-controls__dropdown">
+              <button type="button" class="gallery-controls__dropdown-toggle" aria-expanded="false"
+                aria-controls="topic-dropdown">
+                Filter by Topic: All <span class="gallery-controls__caret"></span>
+              </button>
+              <ul class="gallery-controls__dropdown-menu" role="menu" id="topic-dropdown">
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-filter="all">All</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-filter="mental wellness">Mental Wellness</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-filter="physical health">Physical Health</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-filter="specialized programs">Specialized
+                    Programs</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Difficulty Filter -->
+          <div class="gallery-controls__filter" id="difficulty-filter">
+            <div class="gallery-controls__dropdown">
+              <button type="button" class="gallery-controls__dropdown-toggle" aria-expanded="false"
+                aria-controls="difficulty-dropdown">
+                Filter by Difficulty: All <span class="gallery-controls__caret"></span>
+              </button>
+              <ul class="gallery-controls__dropdown-menu" role="menu" id="difficulty-dropdown">
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-filter="all">All</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-filter="beginner">Beginner</a>
+                </li>
+                <li class="gallery-controls__dropdown-item">
+                  <a href="#" class="gallery-controls__dropdown-link" data-filter="intermediate">Intermediate</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Search -->
+        <div class="gallery-controls__search">
+          <form role="search" class="gallery-controls__search-form">
+            <div class="gallery-controls__search-group">
+              <label for="search-courses" class="gallery-controls__search-label sr-only">Find a product</label>
+              <input type="text" id="search-courses" name="query" placeholder="Type a topic or skill..."
+                class="gallery-controls__search-input" />
+              <button type="submit" id="search-course-button" class="gallery-controls__search-button">
+                <i class="fa fa-search" title="Search"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses">
+      <div class="wrapper wrapper--fluid">
+        <div id="gallery-cards-container" class="courses__container">
+          <!-- Cards will be loaded here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section pagination">
+      <div class="wrapper">
+        <div class="pagination__buttons">
+          <button id="prev-page" class="pagination__button pagination__button--prev">‹</button>
+          <div class="pagination__numbers">
+            <!-- Page numbers will be added here -->
+          </div>
+          <button id="next-page" class="pagination__button pagination__button--next">›</button>
+        </div>
+        <div class="pagination__load-more">
+          <button id="load-more-btn" class="pagination__load-button">
+            <i class="fa fa-sync pagination__load-icon" aria-hidden="true"></i>
+            <span class="pagination__load-text">Show More</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <p class="footer__copyright">
+        Copyright © <span id="current-year"></span> WELLNESS ACADEMY
+      </p>
+
+      <div class="footer__contact">
+        <a href="mailto:support@wellnessacademy.com" class="footer__email">support@wellnessacademy.com</a>
+      </div>
+
+      <div class="footer__links">
+        <a href="/terms" class="footer__link">User Agreement</a> |
+        <a href="/privacy" class="footer__link">Data Protection</a> |
+        <a href="/cookies" class="footer__link">Cookie Settings</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

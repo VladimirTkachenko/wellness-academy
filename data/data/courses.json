@@ -1,0 +1,460 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Anatomy Fundamentals for Beginners",
+      "instructor": {
+        "role": "Doctor of Medicine",
+        "name": "Helen Petrova",
+        "image": "/src/assets/instructors/1HelenPetrova.jpg",
+        "bio": "Specialist in sports medicine with 15 years of experience, author of 3 textbooks on human anatomy."
+      },
+      "difficulty": "Beginner",
+      "topic": "Physical Health",
+      "duration": "4 weeks",
+      "price": 49,
+      "currency": "EUR",
+      "image": "/src/assets/courses/1anatomy.jpg",
+      "description": "Learn human anatomy essentials for safe exercise practice.",
+      "promotionalMessage": "Feeling lost in the complexity of human body? This course breaks down anatomy into easy-to-understand modules that will transform your understanding of physical health!",
+      "rating": 4.7
+    },
+    {
+      "id": 2,
+      "title": "Functional Fitness 45+",
+      "instructor": {
+        "role": "Certified Fitness Coach",
+        "name": "Michael Koval",
+        "image": "/src/assets/instructors/2MichaelKoval.jpg",
+        "bio": "Specialist in age-appropriate fitness programs, former professional athlete with 8 years of coaching experience."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Physical Health",
+      "duration": "6 weeks",
+      "price": 59,
+      "currency": "EUR",
+      "image": "/src/assets/courses/2fitness45.jpg",
+      "description": "Tailored workouts for maintaining mobility in middle age.",
+      "promotionalMessage": "Age is just a number! Discover how to stay strong, flexible, and vibrant in your 40s and beyond with our specialized fitness program.",
+      "rating": 4.9
+    },
+    {
+      "id": 3,
+      "title": "Energy Breathing Techniques",
+      "instructor": {
+        "role": "Qigong Master",
+        "name": "Vitaliy Kim",
+        "image": "/src/assets/instructors/3VitaliyKim.jpg",
+        "bio": "20+ years of practice in traditional Chinese energy techniques, certified by International Qigong Association."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Physical Health",
+      "duration": "5 weeks",
+      "price": 47,
+      "currency": "EUR",
+      "image": "/src/assets/courses/3breathing.jpg",
+      "description": "Ancient practices for modern vitality.",
+      "promotionalMessage": "Unlock the secret to unlimited energy and inner peace through time-tested breathing techniques that have been practiced for centuries!",
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "title": "Nutrition for Immune Health",
+      "instructor": {
+        "role": "Clinical Nutritionist",
+        "name": "Iryna Koval",
+        "image": "/src/assets/instructors/4IrynaKoval.jpg",
+        "bio": "Registered dietitian specializing in immunonutrition with 10 years of clinical practice."
+      },
+      "difficulty": "Beginner",
+      "topic": "Physical Health",
+      "duration": "6 weeks",
+      "price": 55,
+      "currency": "EUR",
+      "image": "/src/assets/courses/4nutrition.jpg",
+      "description": "Dietary strategies to boost your immune system.",
+      "promotionalMessage": "Want to supercharge your body's natural defenses? Learn cutting-edge nutritional strategies that will keep you healthy and resilient!",
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "title": "Posture Correction Workshop",
+      "instructor": {
+        "role": "Physiotherapist",
+        "name": "Roman Koval",
+        "image": "/src/assets/instructors/5RomanKoval.jpg",
+        "bio": "Specialist in postural rehabilitation, founder of Kyiv Posture Clinic."
+      },
+      "difficulty": "Beginner",
+      "topic": "Physical Health",
+      "duration": "6 weeks",
+      "price": 59,
+      "currency": "EUR",
+      "image": "/src/assets/courses/5posture.jpg",
+      "description": "Exercises and techniques to improve posture and body alignment.",
+      "promotionalMessage": "Tired of back pain and slouching? Our expert-led workshop will help you stand tall, move with confidence, and eliminate chronic discomfort!",
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "title": "Weight Management Strategies",
+      "instructor": {
+        "role": "Fitness Coach",
+        "name": "Dmytro Ivanov",
+        "image": "/src/assets/instructors/6DmytroIvanov.jpg",
+        "bio": "Certified nutrition coach and personal trainer specializing in sustainable weight loss."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Physical Health",
+      "duration": "10 weeks",
+      "price": 69,
+      "currency": "EUR",
+      "image": "/src/assets/courses/6weight-management.jpg",
+      "description": "Sustainable approach to healthy weight loss and maintenance.",
+      "promotionalMessage": "Forget crash diets and temporary solutions! Learn a holistic approach to weight management that will transform your lifestyle forever!",
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "title": "Respiratory Wellness Course",
+      "instructor": {
+        "role": "Pulmonologist",
+        "name": "Oleksandr Melnyk",
+        "image": "/src/assets/instructors/7OleksandrMelnyk.jpg",
+        "bio": "MD with specialization in respiratory medicine, researcher at National Pulmonology Center."
+      },
+      "difficulty": "Beginner",
+      "topic": "Physical Health",
+      "duration": "5 weeks",
+      "price": 49,
+      "currency": "EUR",
+      "image": "/src/assets/courses/7respiratory-health.jpg",
+      "description": "Techniques to improve lung capacity and overall respiratory health.",
+      "promotionalMessage": "Breathe easier, live better! Discover professional techniques to maximize your lung health and boost your overall well-being!",
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "title": "Strength Training Foundations",
+      "instructor": {
+        "role": "Personal Trainer",
+        "name": "Natalia Kravchenko",
+        "image": "/src/assets/instructors/8NataliaKravchenko.jpg",
+        "bio": "Certified strength and conditioning specialist with 12 years of coaching experience."
+      },
+      "difficulty": "Beginner",
+      "topic": "Physical Health",
+      "duration": "8 weeks",
+      "price": 65,
+      "currency": "EUR",
+      "image": "/src/assets/courses/8strength-training.jpg",
+      "description": "Basic principles of effective and safe strength training.",
+      "promotionalMessage": "Ready to transform your body and build real strength? Our comprehensive program will guide you from beginner to confident athlete!",
+      "rating": 4.9
+    },
+    {
+      "id": 9,
+      "title": "Stress Resilience Techniques",
+      "instructor": {
+        "role": "Clinical Psychologist",
+        "name": "Andrew Melnyk",
+        "image": "/src/assets/instructors/9AndrewMelnyk.jpg",
+        "bio": "Cognitive-behavioral therapist specializing in stress management and burnout prevention."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Mental Wellness",
+      "duration": "4 weeks",
+      "price": 45,
+      "currency": "EUR",
+      "image": "/src/assets/courses/9stress-management.jpg",
+      "description": "Practical tools for daily stress management.",
+      "promotionalMessage": "Feeling overwhelmed by life's challenges? Learn powerful techniques to build mental resilience and find inner calm in any situation!",
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "title": "Meditation for Beginners",
+      "instructor": {
+        "role": "Mindfulness Coach",
+        "name": "Oleh Savchenko",
+        "image": "/src/assets/instructors/10OlehSavchenko.jpg",
+        "bio": "Certified meditation teacher trained in Tibetan and Vipassana traditions."
+      },
+      "difficulty": "Beginner",
+      "topic": "Mental Wellness",
+      "duration": "3 weeks",
+      "price": 35,
+      "currency": "EUR",
+      "image": "/src/assets/courses/10meditation.jpg",
+      "description": "Foundation for developing meditation practice.",
+      "promotionalMessage": "Discover the transformative power of meditation! No experience needed - just an open mind and the desire to find inner peace!",
+      "rating": 4.8
+    },
+    {
+      "id": 11,
+      "title": "Cognitive Memory Training",
+      "instructor": {
+        "role": "Neuropsychologist",
+        "name": "Natalia Boyko",
+        "image": "/src/assets/instructors/11NataliaBoyko.jpg",
+        "bio": "PhD in cognitive neuroscience, researcher at Memory and Aging Laboratory."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Mental Wellness",
+      "duration": "6 weeks",
+      "price": 55,
+      "currency": "EUR",
+      "image": "/src/assets/courses/11memory.jpg",
+      "description": "Science-backed exercises to enhance recall.",
+      "promotionalMessage": "Want to sharpen your mind and boost memory power? Our scientifically designed program will help you unlock your brain's full potential!",
+      "rating": 4.6
+    },
+    {
+      "id": 12,
+      "title": "Emotional Intelligence Workshop",
+      "instructor": {
+        "role": "Psychotherapist",
+        "name": "Sergiy Moroz",
+        "image": "/src/assets/instructors/12SergiyMoroz.jpg",
+        "bio": "Specialist in emotional intelligence development with corporate training experience."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Mental Wellness",
+      "duration": "5 weeks",
+      "price": 49,
+      "currency": "EUR",
+      "image": "/src/assets/courses/12emotional_intelligence.jpg",
+      "description": "Develop skills for better personal and professional relationships.",
+      "promotionalMessage": "Transform your relationships and career with proven emotional intelligence techniques! Learn to connect, communicate, and succeed!",
+      "rating": 4.7
+    },
+    {
+      "id": 13,
+      "title": "Mindful Eating Program",
+      "instructor": {
+        "role": "Nutritional Psychologist",
+        "name": "Olena Sydorova",
+        "image": "/src/assets/instructors/13OlenaSydorova.jpg",
+        "bio": "Expert in eating behavior and food psychology, author of 'Mindful Nutrition'."
+      },
+      "difficulty": "Beginner",
+      "topic": "Mental Wellness",
+      "duration": "4 weeks",
+      "price": 42,
+      "currency": "EUR",
+      "image": "/src/assets/courses/13mindful-eating.jpg",
+      "description": "Transform your relationship with food through mindfulness.",
+      "promotionalMessage": "Say goodbye to diets and hello to a healthy relationship with food! Learn to eat with awareness and joy!",
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "title": "Sleep Hygiene Masterclass",
+      "instructor": {
+        "role": "Sleep Expert",
+        "name": "Yulia Pavlenko",
+        "image": "/src/assets/instructors/14YuliaPavlenko.jpg",
+        "bio": "Certified sleep science coach with background in neurology and circadian rhythms."
+      },
+      "difficulty": "Beginner",
+      "topic": "Mental Wellness",
+      "duration": "4 weeks",
+      "price": 42,
+      "currency": "EUR",
+      "image": "/src/assets/courses/14sleep_hygiene.jpg",
+      "description": "Science-based sleep optimization techniques.",
+      "promotionalMessage": "Tired of restless nights? Discover the secrets to perfect sleep and wake up refreshed, energized, and ready to conquer the day!",
+      "rating": 4.8
+    },
+    {
+      "id": 15,
+      "title": "Anxiety Management Techniques",
+      "instructor": {
+        "role": "Clinical Psychologist",
+        "name": "Ivan Koval",
+        "image": "/src/assets/instructors/15IvanKoval.jpg",
+        "bio": "Specialist in anxiety disorders, developer of 'Calm Mind' therapeutic protocol."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Mental Wellness",
+      "duration": "6 weeks",
+      "price": 55,
+      "currency": "EUR",
+      "image": "/src/assets/courses/15anxiety_management.jpg",
+      "description": "Practical strategies for understanding and managing anxiety.",
+      "promotionalMessage": "Break free from anxiety's grip! Learn proven techniques to manage stress, build confidence, and reclaim your life!",
+      "rating": 4.6
+    },
+    {
+      "id": 16,
+      "title": "Creative Visualization Therapy",
+      "instructor": {
+        "role": "Art Therapist",
+        "name": "Olga Petrova",
+        "image": "/src/assets/instructors/16OlgaPetrova.jpg",
+        "bio": "Expressive arts therapist combining visualization techniques with creative modalities."
+      },
+      "difficulty": "Beginner",
+      "topic": "Mental Wellness",
+      "duration": "5 weeks",
+      "price": 45,
+      "currency": "EUR",
+      "image": "/src/assets/courses/16visualization.jpg",
+      "description": "Harness the power of mental imagery for personal growth.",
+      "promotionalMessage": "Unlock your potential through the magic of visualization! Learn how to create the life you've always dreamed of!",
+      "rating": 4.7
+    },
+    {
+      "id": 17,
+      "title": "Healthy Aging Program",
+      "instructor": {
+        "role": "Gerontologist",
+        "name": "Viktor Ivanov",
+        "image": "/src/assets/instructors/17ViktorIvanov.jpg",
+        "bio": "Researcher in aging processes and longevity strategies with 20 years of experience."
+      },
+      "difficulty": "Beginner",
+      "topic": "Specialized Programs",
+      "duration": "10 weeks",
+      "price": 79,
+      "currency": "EUR",
+      "image": "/src/assets/courses/17healthy_aging.jpg",
+      "description": "Holistic approach to aging gracefully.",
+      "promotionalMessage": "Age is just a number! Discover how to stay vibrant, healthy, and active throughout your golden years!",
+      "rating": 4.8
+    },
+    {
+      "id": 18,
+      "title": "Prenatal Fitness",
+      "instructor": {
+        "role": "Pregnancy Fitness Specialist",
+        "name": "Anna Shevchenko",
+        "image": "/src/assets/instructors/18AnnaShevchenko.jpg",
+        "bio": "Certified prenatal and postnatal fitness coach with 10 years of experience."
+      },
+      "difficulty": "Beginner",
+      "topic": "Specialized Programs",
+      "duration": "9 weeks",
+      "price": 65,
+      "currency": "EUR",
+      "image": "/src/assets/courses/18pregnancy-fitness.jpg",
+      "description": "Safe movement for expecting mothers.",
+      "promotionalMessage": "Embrace your pregnancy journey with confidence! Stay fit, healthy, and prepare your body for the most amazing experience of your life!",
+      "rating": 4.9
+    },
+    {
+      "id": 19,
+      "title": "Post-Injury Knee Recovery",
+      "instructor": {
+        "role": "Rehabilitation Specialist",
+        "name": "Oleksiy Gordiyenko",
+        "image": "/src/assets/instructors/19OleksiyGordiyenko.jpg",
+        "bio": "Physical therapist specializing in orthopedic rehabilitation and sports injuries."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Specialized Programs",
+      "duration": "12 weeks",
+      "price": 89,
+      "currency": "EUR",
+      "image": "/src/assets/courses/19knee_recovery.jpeg",
+      "description": "Step-by-step rehabilitation protocol.",
+      "promotionalMessage": "Recover stronger than ever! Our expert-guided program will help you rebuild knee strength and return to the activities you love!",
+      "rating": 4.7
+    },
+    {
+      "id": 20,
+      "title": "Women's Hormonal Health",
+      "instructor": {
+        "role": "Gynecologist-Endocrinologist",
+        "name": "Natalia Petrova",
+        "image": "/src/assets/instructors/20NataliaPetrova.jpg",
+        "bio": "Specialist in women's hormonal balance and reproductive health."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Specialized Programs",
+      "duration": "7 weeks",
+      "price": 65,
+      "currency": "EUR",
+      "image": "/src/assets/courses/20woman-health.jpg",
+      "description": "Comprehensive guide to understanding and managing hormonal balance.",
+      "promotionalMessage": "Take control of your hormonal health! Learn the secrets to balance, wellness, and vibrant living!",
+      "rating": 4.6
+    },
+    {
+      "id": 21,
+      "title": "Chronic Pain Management",
+      "instructor": {
+        "role": "Pain Physician",
+        "name": "Tetiana Lysenko",
+        "image": "/src/assets/instructors/21TetianaLysenko.jpg",
+        "bio": "MD with specialization in chronic pain syndromes and integrative pain therapies."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Specialized Programs",
+      "duration": "8 weeks",
+      "price": 75,
+      "currency": "EUR",
+      "image": "/src/assets/courses/21chronic_pain.jpeg",
+      "description": "Holistic approach to grasp and managing chronic pain.",
+      "promotionalMessage": "Break free from chronic pain! Our holistic program offers hope, healing, and a path to reclaiming your life!",
+      "rating": 4.5
+    },
+    {
+      "id": 22,
+      "title": "Sports Injury Prevention",
+      "instructor": {
+        "role": "Sports Medicine Doctor",
+        "name": "Andriy Shevchenko",
+        "image": "/src/assets/instructors/22AndriyShevchenko.jpg",
+        "bio": "Team physician for national athletes, specialist in sports injury prevention."
+      },
+      "difficulty": "Intermediate",
+      "topic": "Specialized Programs",
+      "duration": "6 weeks",
+      "price": 59,
+      "currency": "EUR",
+      "image": "/src/assets/courses/22sports-injury.jpg",
+      "description": "Techniques and strategies to prevent common sports-related injuries.",
+      "promotionalMessage": "Stay in the game! Learn cutting-edge techniques to prevent injuries and perform at your peak!",
+      "rating": 4.8
+    },
+    {
+      "id": 23,
+      "title": "Fertility and Wellness",
+      "instructor": {
+        "role": "Reproductive Health Specialist",
+        "name": "Olena Koval",
+        "image": "/src/assets/instructors/23OlenaKoval.jpg",
+        "bio": "Fertility expert combining Western medicine with holistic approaches."
+      },
+      "difficulty": "Beginner",
+      "topic": "Specialized Programs",
+      "duration": "5 weeks",
+      "price": 55,
+      "currency": "EUR",
+      "image": "/src/assets/courses/23fertility.jpg",
+      "description": "Holistic approach to reproductive health and wellness.",
+      "promotionalMessage": "Empower your fertility journey! Discover holistic strategies to support your reproductive health and wellness!",
+      "rating": 4.7
+    },
+    {
+      "id": 24,
+      "title": "Senior Fitness and Mobility",
+      "instructor": {
+        "role": "Geriatric Fitness Coach",
+        "name": "Marina Sydorova",
+        "image": "/src/assets/instructors/24MarinaSydorova.jpg",
+        "bio": "Specialist in senior fitness programs focusing on mobility and independence."
+      },
+      "difficulty": "Beginner",
+      "topic": "Specialized Programs",
+      "duration": "8 weeks",
+      "price": 65,
+      "currency": "EUR",
+      "image": "/src/assets/courses/24senior_fitness.jpg",
+      "description": "Gentle exercises to maintain strength and mobility in later years.",
+      "promotionalMessage": "Stay active, independent, and vibrant in your senior years! Our gentle, proven program helps you maintain strength and mobility!",
+      "rating": 4.6
+    }
+  ]
+}

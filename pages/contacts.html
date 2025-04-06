@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts - WELLNESS ACADEMY</title>
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../../dist/styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="../js/main.js" type="module" defer></script>
+  </head>
+
+  <body class="page__body contacts-page">
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__content">
+          <a href="/index.html" class="header__logo logo">
+            <img class="logo-img" src="../assets/logo.svg" alt="WELLNESS ACADEMY Logo" />
+            <h1 class="logo-text">
+              WELLNESS
+              <br />
+              ACADEMY
+            </h1>
+          </a>
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="/index.html">
+                  Home
+                  <i class="fas fa-chevron-down" id="dropdown-icon"></i>
+                </a>
+                <ul class="submenu">
+                  <li>
+                    <a class="nav__link" href="/index.html#featured-courses">Featured Courses</a>
+                  </li>
+                  <li><a class="nav__link" href="/index.html#creators">Course Creators</a></li>
+                  <li><a class="nav__link" href="/index.html#guidePromo">Free Guide</a></li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav__item nav__item--active">
+                <a class="nav__link" href="contacts.html">Contacts</a>
+              </li>
+            </ul>
+            <div class="header__mobile-menu">
+              <i class="fas fa-bars"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section contacts">
+        <div class="wrapper">
+          <h2 class="contacts__title section__title">
+            Let’s Connect!
+            <svg xmlns="http://www.w3.org/2000/svg" width="573" height="68" viewBox="0 0 573 68">
+              <path
+                d="M 0,67.32 c 71.625,-1.87 143.25,-5.78 286.5,-7.48 c 143.25,-1.7 217.74,0 286.5,0.68 c 13.752,0.136 -10.887,1.938 -11.46,2.04"
+                fill="none"
+                stroke="#E3CF5B"
+                stroke-width="3"
+                stroke-linecap="round"
+              />
+            </svg>
+          </h2>
+          <div class="contacts__container">
+            <div class="contacts__info">
+              <div class="contacts__item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>4 Oleksandr Shpeyer Street, Suite 100<br />Kharkiv, 61157, Ukraine</p>
+                </div>
+              </div>
+
+              <div class="contacts__item">
+                <i class="fas fa-clock"></i>
+                <div>
+                  <h3>Working Hours</h3>
+                  <p>Monday-Friday: 9:00 - 18:00<br />Saturday: 10:00 - 15:00</p>
+                </div>
+              </div>
+
+              <div class="contacts__item">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <p><a href="tel:+380571234567">+38 (057) 123-45-67</a></p>
+                </div>
+              </div>
+
+              <div class="contacts__item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>
+                    <a target="_blank" href="mailto:info@wellnessacademy.com"
+                      >info@wellnessacademy.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="contacts__social">
+                <h3 class="contacts__social-title">Follow Us</h3>
+                <div class="contacts__social social-icons">
+                  <a
+                    href="https://www.facebook.com/"
+                    class="contacts__social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/"
+                    class="contacts__social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/"
+                    class="contacts__social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a
+                    href="https://www.youtube.com/"
+                    class="contacts__social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contacts__map">
+              <div
+                id="map"
+                class="map-container"
+                aria-label="Interactive map showing Wellness Academy location"
+              ></div>
+              <small class="map-attribution">Map data © OpenStreetMap contributors</small>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts__form-container" id="contactFormContainer">
+        <div class="wrapper">
+          <h2 class="section__title">Send Us a Message</h2>
+          <form class="contacts__form form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name (required)</label>
+                <input
+                  class="form-field"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="E.g. Anna Petrova"
+                  aria-label="Enter your last name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email (required)</label>
+                <input
+                  class="form-field"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your.email@example.com"
+                  aria-label="Enter your email address"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject (Optional)</label>
+              <input
+                class="form-field"
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="E.g. Consultation request"
+                aria-label="Enter your message subject"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message (required)</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Please type your message here..."
+                aria-label="Enter your detailed message"
+                required
+              ></textarea>
+            </div>
+
+            <button class="contacts__form-button btn" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__content">
+          <p class="footer__copyright">
+            Copyright © <span id="current-year"></span> WELLNESS ACADEMY
+          </p>
+          <div class="footer__links">
+            <a href="/terms" class="footer__link">User Agreement</a> |
+            <a href="/privacy" class="footer__link">Data Protection</a> |
+            <a href="/cookies" class="footer__link">Cookie Settings</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
