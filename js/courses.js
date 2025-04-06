@@ -1,7 +1,7 @@
 import { generateRatingStars } from './ratingStars.js';
 export async function fetchCourses() {
   try {
-    const response = await fetch('/data/courses.json');
+    const response = await fetch('/wellness-academy/data/courses.json');
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
     const data = await response.json();
     console.log('Fetched courses:', data);
